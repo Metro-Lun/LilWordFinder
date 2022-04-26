@@ -23,6 +23,7 @@ For the main program, use the implemented functions.
 ### Functions :
 * Find words starting or ending by specific letters
 * Possibility to reduce the research to n-letter words, n being a word length of your choice
+* Find words containing specific letters
 
 ## References
 * For the [French dictionary](http://jph.durand.free.fr/scrabble.txt)
