@@ -1,7 +1,15 @@
-file = open('words_en.txt', 'r')
+file = open('words_en.txt', 'r')   # to transfer all words into a list
 words = []
 for line in file :
     words.append(line.rstrip('\n'))
+
+def AND(l1,l2) :        # creates a list containing only all elements shared by the two original lists
+    l3 = []
+    for elt in l1 :
+        if elt in l2 :
+            l3.append(elt)
+
+    return l3
 
 """FIND WORDS OF A SPECIFIC LENGTH"""
 
